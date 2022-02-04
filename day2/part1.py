@@ -7,6 +7,7 @@ f.close()
 
 hpos = depth = 0
 
+# part 1
 for line in lines:
     action, amount = line.split()
     amount = int(amount)
